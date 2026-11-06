@@ -1,1 +1,96 @@
 /* Add your own styles */
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    padding-top: 25px;
+}
+
+header
+{
+    color: rgb(62, 92, 175);
+}
+
+main div label
+{
+    margin-bottom: 15px;
+}
+
+main div button
+{
+    padding: 6.5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 7px;
+}
+
+main div input
+{
+    padding: 6.5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+#inputs
+{
+    width: 62%;
+    padding: 50px 0px 25px 0px;
+}
+#inputs input
+{
+    width: 100%;
+}
+
+#buttons
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-bottom:25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    width: 63%;
+}
+
+#controls
+{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    align-items: center;
+}
+
+#result
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#controls button
+{
+    flex: 1;
+}
+
+#result table
+{
+    border-collapse: collapse;
+    border: 0.5px solid black;
+    background-color:tan;
+}
+
+#result th, #result td
+{
+    border: 0.5px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#result th
+{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}

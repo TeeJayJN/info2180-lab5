@@ -6,7 +6,7 @@
 
 		<!-- you can modify this as needed or to your preference -->
 		<link href="world.css" type="text/css" rel="stylesheet" />
-
+		<!-- include Jquery -->
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 		<!-- you write this -->
 		<script src="world.js" type="text/javascript"></script>
@@ -20,10 +20,15 @@
 
 		<main>
 			<div id="controls">
-				<label for="country">Country:</label>
-				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookupCntry">Lookup Countries</button>
-				<button id="lookupCty">Lookup Cities</button>
+				<div id = "inputs">
+					<label for="country">Country:</label>
+					<input id="country" type="search" name="country" placeholder="Enter country name" />
+				</div>
+				<div id = "buttons">
+					<button id="lookupCntry">Lookup Countries</button>
+					<button id="lookupCty">Lookup Cities</button>
+				</div>
+				
 			</div>
 			
 			<div id="result">
